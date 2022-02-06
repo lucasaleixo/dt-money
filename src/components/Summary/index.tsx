@@ -28,8 +28,8 @@ export function Summary() {
         <Container>
             <div>
                 <header>
-                    <p>Incomes</p>
-                    <img src={incomeImg} alt="Incomes" />
+                    <p>Entradas</p>
+                    <img src={incomeImg} alt="Entradas" />
                 </header>
                 <strong>
                     {new Intl.NumberFormat('pt-BR', {
@@ -41,8 +41,8 @@ export function Summary() {
 
             <div>
                 <header>
-                    <p>Outcomes</p>
-                    <img src={outcomeImg} alt="Outcomes" />
+                    <p>Saídas</p>
+                    <img src={outcomeImg} alt="Saídas" />
                 </header>
                 <strong>
                     - {new Intl.NumberFormat('pt-BR', {
@@ -54,8 +54,8 @@ export function Summary() {
 
             <div className="highlight-background">
                 <header>
-                    <p>Total</p>
-                    <img src={totalImg} alt="Total" />
+                    <p>Saldo</p>
+                    <img src={totalImg} alt="Saldo" />
                 </header>
                 <strong>
                 {new Intl.NumberFormat('pt-BR', {
