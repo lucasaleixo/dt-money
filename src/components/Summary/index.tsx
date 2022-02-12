@@ -29,7 +29,7 @@ export function Summary() {
             <div>
                 <header>
                     <p>Entradas</p>
-                    <img src={incomeImg} alt="Entradas" />
+                    <img src={incomeImg} alt="Incomes" />
                 </header>
                 <strong>
                     {new Intl.NumberFormat('pt-BR', {
@@ -42,7 +42,7 @@ export function Summary() {
             <div>
                 <header>
                     <p>Saídas</p>
-                    <img src={outcomeImg} alt="Saídas" />
+                    <img src={outcomeImg} alt="Outcomes" />
                 </header>
                 <strong>
                     - {new Intl.NumberFormat('pt-BR', {
